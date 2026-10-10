@@ -23,6 +23,14 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
+//mendefinisikan warna
+val CardBg1 = Color(0xFF524E38)
+val CardBg2 = Color(0xFF784CD6)
+val CardBg3 = Color(0xFF0000FF)
+val CardBg4 = Color(0xFF006400)
+val YellowText = Color(0xFFFFD700)
+val CyanText = Color(0xFF00FFFF)
+
 data class UserData(
     @StringRes val nama: Int,
     @StringRes val detail1: Int,
