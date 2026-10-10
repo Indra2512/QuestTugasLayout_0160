@@ -113,6 +113,15 @@ fun ReusableUserCard(data: UserData) {
                 textColor2 = YellowText,
                 logoRes = R.drawable.umylogo
             ),
+            UserData(
+                nama = R.string.nama_2,
+                detail1 = R.string.no_2,
+                detail2 = R.string.alamat_2,
+                backgroundColor = CardBg2,
+                textColor1 = CyanText,
+                textColor2 = YellowText,
+                logoRes = R.drawable.umylogo
+            ),
         )
     }
 }
