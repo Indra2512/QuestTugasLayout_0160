@@ -70,6 +70,12 @@ fun ReusableUserCard(data: UserData) {
                     fontSize = 18.sp,
                     fontWeight = FontWeight.Bold
                 )
+
+                Text(
+                    text = stringResource(id = data.detail1),
+                    color = data.textColor1,
+                    fontSize = 12.sp
+                )
             }
         }
     }
