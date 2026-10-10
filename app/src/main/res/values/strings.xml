@@ -18,4 +18,10 @@
     <string name="no_3">086426874190</string>
     <string name="alamat_3">Bantul, Yogyakarta</string>
 
+    //Data Card 4
+    <string name="nama_4">Zahra Amelia Putri</string>
+    <string name="no_4">080439994190</string>
+    <string name="alamat_4">Cirebon, Jawa Barat</string>
+
+
 </resources>
