@@ -26,13 +26,13 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
 data class UserData(
-    @StringRes val nama: int,
-    @StringRes val detail1: int,
-    @StringRes val detail2: int? = null,
+    @StringRes val nama: Int,
+    @StringRes val detail1: Int,
+    @StringRes val detail2: Int? = null,
     val backgroundColor: Color,
     val textColor1: Color,
     val textColor2: Color,
-    @DrawableRes val logoRes: int
+    @DrawableRes val logoRes: Int
 )
 
 @Composable
@@ -86,6 +86,13 @@ fun ReusableUserCard(data: UserData) {
                     )
                 }
             }
+
+            //Logo bagian kanan
+            Image(
+                painter = painterResource(id = data.logoRes),
+                contentDescription = null,
+                modifier = Modifier.size(50.dp)
+            )
         }
     }
 }
