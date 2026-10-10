@@ -1,5 +1,6 @@
 package com.example.tugas4
 
+import android.R
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
 import androidx.compose.foundation.Image
@@ -76,6 +77,14 @@ fun ReusableUserCard(data: UserData) {
                     color = data.textColor1,
                     fontSize = 12.sp
                 )
+
+                if (data.detail2 != null) {
+                    Text(
+                        text = stringResource(id = data.detail2),
+                        color = data.textColor2,
+                        fontSize = 12.sp
+                    )
+                }
             }
         }
     }
