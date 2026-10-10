@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="card_bg_1">#524E38</color>
+    <color name="card_bg_2">#784CD6</color>
 </resources>
