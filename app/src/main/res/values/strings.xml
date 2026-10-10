@@ -2,4 +2,10 @@
     <string name="app_name">Tugas 4</string>
     <string name="prodi">Teknologi Informasi</string>
     <string name="univ">Universitas Muhammadiyah Yogyakarta</string>
+
+    //Data Card 1
+    <string name="nama_1">Ahmad Takeshi</string>
+    <string name="no_1">085436474180</string>
+    <string name="alamat_1">Turi, Sleman</string>
+
 </resources>
