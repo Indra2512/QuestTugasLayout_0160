@@ -13,4 +13,9 @@
     <string name="no_2">085436874190</string>
     <string name="alamat_2">Batulicin, Tanah Bumbu</string>
 
+    //Data Card 3
+    <string name="nama_3">Kiana Putra</string>
+    <string name="no_3">086426874190</string>
+    <string name="alamat_3">Bantul, Yogyakarta</string>
+
 </resources>
