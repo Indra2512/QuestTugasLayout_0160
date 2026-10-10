@@ -1,6 +1,5 @@
 package com.example.tugas4
 
-import android.R
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
 import androidx.compose.foundation.Image
@@ -18,7 +17,6 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.modifier.modifierLocalConsumer
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
@@ -94,6 +92,20 @@ fun ReusableUserCard(data: UserData) {
                 modifier = Modifier.size(50.dp)
             )
         }
+    }
+
+    @Composable
+    fun MainScreen() {
+        val listData = listOf(
+            UserData(
+                nama = R.string.nama_1,
+                detail1 = R.string.no_1,
+                backgroundColor = CardBg1,
+                textColor1 = YellowText,
+                textColor2 = YellowText,
+                logoRes = R.drawable.umylogo
+            ),
+        )
     }
 }
 
