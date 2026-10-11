@@ -20,8 +20,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             Tugas4Theme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
+                    MainScreen(
                         modifier = Modifier.padding(innerPadding)
                     )
                 }

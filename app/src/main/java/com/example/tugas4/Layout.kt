@@ -107,9 +107,10 @@ fun ReusableUserCard(data: UserData) {
             )
         }
     }
+}
 
     @Composable
-    fun MainScreen() {
+    fun MainScreen(modifier: Modifier = Modifier) {
         val listData = listOf(
             UserData(
                 nama = R.string.nama_1,
@@ -190,5 +191,4 @@ fun ReusableUserCard(data: UserData) {
             )
         }
     }
-}
 
