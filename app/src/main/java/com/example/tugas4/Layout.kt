@@ -180,6 +180,14 @@ fun ReusableUserCard(data: UserData) {
 
             Spacer(modifier = Modifier.weight(1f))
             Spacer(modifier = Modifier.height(24.dp))
+
+            // Copyright
+            Text(
+                text = stringResource(id = R.string.copy),
+                fontSize = 12.sp,
+                color = Color.Gray,
+                modifier = Modifier.padding(bottom = 16.dp)
+            )
         }
     }
 }
