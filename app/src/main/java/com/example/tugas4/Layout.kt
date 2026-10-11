@@ -170,6 +170,16 @@ fun ReusableUserCard(data: UserData) {
                 fontWeight = FontWeight.SemiBold,
                 color = Color.Black
             )
+
+            Spacer(modifier = Modifier.height(24.dp))
+
+            //Menampilkan daftar card
+            listData.forEach { data ->
+                ReusableUserCard(data = data)
+            }
+
+            Spacer(modifier = Modifier.weight(1f))
+            Spacer(modifier = Modifier.height(24.dp))
         }
     }
 }
