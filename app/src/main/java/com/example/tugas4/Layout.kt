@@ -155,6 +155,14 @@ fun ReusableUserCard(data: UserData) {
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
             Spacer(modifier = Modifier.height(24.dp))
+
+            // Judul Utama
+            Text(
+                text = stringResource(id = R.string.prodi),
+                fontSize = 22.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Black
+            )
         }
     }
 }
